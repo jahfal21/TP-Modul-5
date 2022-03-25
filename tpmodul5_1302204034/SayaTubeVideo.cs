@@ -26,14 +26,14 @@ namespace tpmodul5_1302204034
         public void IncreasePlayCount(int b)
         {
             // 5.try-catch 
-            // try
-            // { 
-            //if (b >= 10000000) throw new Exception("angka melebihi batas");
-            // playCount = playCount + b;
+            //try
+            //{ 
+            //    if (b >= 10000000) throw new Exception("angka melebihi batas");
+            //    playCount = playCount + b;
             // }
             // catch (Exception e)
-            // {
-            //     Console.WriteLine(e.Message);
+            //{
+            //    Console.WriteLine(e.Message);
             // }
             playCount += b;
         }
